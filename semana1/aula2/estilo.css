@@ -1,0 +1,12 @@
+html,body{
+    margin: 0;
+    line-height: 1.5;
+    
+}
+.caixa{
+    text-align: center;
+    background-color: seagreen;
+    padding: 10px;
+    margin: 30px;
+    border: 3px red solid; 
+}
