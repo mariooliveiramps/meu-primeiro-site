@@ -1,0 +1,292 @@
+html,body{
+    margin: 0;
+}
+
+h2{
+    margin-bottom: 0;
+}
+
+/*Menu*/
+header{
+    background-color: black;
+    color: white;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 50;
+}
+
+#logo img{
+    width: 50px;
+    position: absolute;
+    margin-top: 4px;
+    margin-left: 13px;
+}
+
+#logo2 img{
+    width: 120px;
+    position: absolute;
+    margin-top: 4;
+    margin-left: 63px;
+}
+
+#menu{
+    float: right;
+    margin-top: 0;
+    margin-right: 28px;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+li{
+    float: left;
+    padding: 18px 18px 22px 18px;
+    transition: 500ms;
+}
+
+li:hover{
+    background-color: #899eaa8d;
+    transform: scale(1.12);
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+/*Capa*/
+#imagem_fundo{
+    background-image: url(img/fundo.jpg);
+    background-size: cover;
+    height: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+#titulo{
+    color: white;
+    text-shadow: 4px 4px 8px black;
+    padding-top: 200px;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 270%;
+}
+
+#subtitulo{
+    color: white;
+    text-shadow: 4px 4px 8px black;
+    font-size: 120%;
+    font-weight: 120;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-top: 2px white solid;
+}
+
+#acao{
+    color: white;
+    border: 2px white solid;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#acao:hover{
+    background-color: #899eaa8d;
+    font-weight: 545;
+}
+
+/*Seções*/
+section{
+    padding-top: 2rem;
+    padding: 48px 0 0.5% 5%;
+    float: left;
+    text-align: center;
+}
+
+.destaque{
+    background-color: #f7f1f194;
+}
+
+#titulo2{
+    color: black;
+    padding: 0 10% 0 0;
+    margin: 10px 0 13px 0;
+    font-size: 180%;
+    text-align: center;
+}
+
+#titulo3{
+    color: white;
+    padding-top: 30px;
+    font-size: 180%;
+    text-align: center;
+}
+
+.legenda{
+    color: black;
+    font-size: 60%;
+    text-decoration: none;
+}
+
+#projeto{
+    border-left: 2.4vw #212126 solid;
+    border-right: 2.4vw #212126 solid;
+}
+
+#curiosidades{
+    border-left: 2.4vw #3a312d solid;
+    border-right: 2.4vw #3a312d solid;
+}
+
+#realidade{
+    border-left: 2.4vw #52433b solid;
+    border-right: 2.4vw #52433b solid;
+}
+
+#metas{
+    border-left: 2.4vw #362A25 solid;
+    border-right: 2.4vw #362A25 solid;
+}
+
+#comofuncionam{
+    border-left: 2.4vw #4A3124 solid;
+    border-right: 2.4vw #4A3124 solid;
+}
+
+#sobre{
+    border-left: 2.4vw #454349 solid;
+    border-right: 2.4vw #454349 solid;
+}
+
+.paragrafo{
+    color: black;
+    text-align: justify;
+    text-decoration: none;
+}
+
+.paragrafo2{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.center{
+   text-align: center;
+}
+
+.coluna{
+    float: left;
+    padding: 0 0 0 50px;
+    position: relative;
+}
+
+.dois{
+    width: 40%;
+}
+
+.tres{
+    text-align: center;
+    width: 29%;
+    padding: 0 1%;
+}
+
+.quatro{
+    width: 15%;
+    padding: 0 0 0 6%;
+}
+
+.icone{
+    width: 70px;
+}
+
+.icone:hover{
+    background-color: #44baff8d;
+    border-radius: 20%;
+}
+
+.imgeco{
+    width: 80%;
+    text-align: center;
+}
+
+img{
+    transition: 500ms;
+}
+
+img:hover{
+    transform: scale(1.011);
+}
+
+/*Rodapé*/
+footer{
+    background-color: #212126;
+    color: white;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+.topo{
+    padding-top: 2%;
+}
+
+@media all and (max-width: 768px){
+    #menu{
+        visibility: hidden;
+    }
+
+    .coluna, .dois, .tres, .quatro{
+        display: block;
+        width: 80%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+    }
+
+    #logo{
+        text-align: center;
+    }
+
+    #logo img{
+        width: 40px;
+        margin-left: 0;
+        position: relative;
+    }
+
+    #logo2 img{
+        visibility: hidden;
+    }
+
+    #subtitulo{
+        margin-left: 3%;
+        margin-right: 3%;
+        font-size: 115%;
+        border-top: none;
+    }
+
+    #titulo{
+        padding-top: 50%;
+        margin: 0;
+        font-size: 190%;
+    }
+
+    #titulo2{
+        padding: 0;
+        font-size: 130%;
+    }
+
+    #acao{
+        font-size: 115%;
+    }
+
+    section{
+        padding: 0;
+    }
+
+    header{
+        height: 50px;
+    }
+}
